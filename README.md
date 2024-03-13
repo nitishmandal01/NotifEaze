@@ -2,8 +2,10 @@
 
 This Spring Boot application provides a framework for integrating with multiple SMS, email, and notification vendors. It defines interfaces for SMS, email, and notification services, along with sample implementations for Gupshup and Kaylera.
 
-#Project Structure
-![Image Description](https://drive.google.com/file/d/1dfsp7Kn9t3gtGk-v6zTDhGOw5jLMPndL/)
+## Project Structure
+
+![Project Structure](https://drive.google.com/uc?id=1dfsp7Kn9t3gtGk-v6zTDhGOw5jLMPndL)
+
 
 ## Prerequisites
 
