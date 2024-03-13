@@ -2,19 +2,6 @@
 
 This Spring Boot application provides a framework for integrating with multiple SMS, email, and notification vendors. It defines interfaces for SMS, email, and notification services, along with sample implementations for Gupshup and Kaylera.
 
-## Project Structure
-src/
-├── main/
-│ ├── java/
-│ │ └── com/
-│ │ └── NotifEaze/
-│ │ └── NotifEaze/
-│ │ ├── controller/ # Contains controllers for testing services
-│ │ ├── dto/ # Data Transfer Objects for communication
-│ │ ├── mock/ # Contains mock classes for testing
-│ │ ├── service/ # Interface definitions for services
-│ │ └── service/impl/ # Sample implementations for vendors
-└── test/ # Unit tests for services (optional)
 
 ## Prerequisites
 
