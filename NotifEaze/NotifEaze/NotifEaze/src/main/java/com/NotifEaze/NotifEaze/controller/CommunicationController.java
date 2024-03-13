@@ -27,9 +27,9 @@ public class CommunicationController {
     private SmsService smsService;
 
     @PostMapping("/send-sms")
-    public ResponseEntity<BaseSmsResponse> sendSms() {
-        /* To be developed */
-        return ResponseEntity.ok().build();
+    public ResponseEntity<BaseSmsResponse> sendSms(@RequestBody BaseSmsRequest request) {
+        BaseSmsResponse response   =  smsService.sendSms(request.getPhoneNumber(), request.getMessage());
+        return ResponseEntity.ok(response);
     }
 
     @PostMapping("/send-email")
