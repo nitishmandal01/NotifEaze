@@ -19,28 +19,25 @@ To get started with this project, follow these steps:
 
 1. Clone this repository to your local machine.
 2. Open the project in your preferred IDE.
-3. Implement vendor-specific interfaces as required.
+3. Run this App in IDE.
 4. Use mock classes for testing purposes.
-5. Create APIs to send SMS and emails using the provided controllers.
+5. Test the APIs to send SMS and emails using the provided controllers.
 
 ## Implementing Vendor-Specific Interfaces
 
-To integrate with specific vendors like Gupshup and Kaylera, you need to implement the corresponding interfaces:
+To integrate with specific vendor- Gupshup, we implemented the corresponding interfaces:
 
 - `EmailService`
 - `PushNotificationService`
 - `SmsService`
 
-Since direct integration with Gupshup and Kaylera is not required, you can utilize the provided mock classes (`GupshupMock` and `KayleraMock`) to simulate API responses during testing.
+Since direct integration with Gupshup was not available, we have utilized the provided mock classes (`GupshupMock`) to simulate API responses during testing.
 
 ## Usage
 
-Once the project is set up and the vendor-specific interfaces are implemented, you can use the provided controllers to test the services. APIs are available for sending SMS and emails.
+Once the project is set up and the vendor-specific interfaces are implemented, we can use the provided controllers to test the services. APIs are available for sending SMS and emails.
 
 ## Contributors
-
-- [Your Name](https://github.com/yourusername)
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+Nitish Kumar Mandal
+- [Github](https://github.com/nitishmandal01)
+- [LinkedIn](https://www.linkedin.com/in/thenitishmandal/)
